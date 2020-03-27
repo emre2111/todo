@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/todo/',
+  presets: [
+    '@vue/cli-plugin-babel/preset',
+  ],
 };
